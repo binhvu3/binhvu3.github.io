@@ -91,10 +91,25 @@
           <!-- (2) Update the filter-#### -->
           <!-- (3) Update position left: 440px for each image and top: 336px -->
           <!-- (4) Update pages/portfolio-details.html -->
-
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200" style="position: relative; height: 1344px;">
+            <!-- Portfolio Item -->
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ml filter-full" style="position: absolute; left: 0px; top: 0px;">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/gemini.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Gemini LLM Clone</h4>
+                  <p>Copy the basic functionality of gemini using React and Gemini api</p>
+                  <div>
+                    <a href="assets/img/portfolio/gemini.jpg" title="Gemini" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="https://github.com/binhvu3/react-projects/tree/main/gemini-clone" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-full filter-ml" style="position: absolute; left: 440px; top: 0px;">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/map.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
@@ -110,31 +125,16 @@
               </div>
             </div>
             <!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-full filter-ml" style="position: absolute; left: 440px; top: 0px;">
+ 
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-dev filter-db filter-dev filter-full" style="position: absolute; left: 880px; top: 0px;">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/gemini.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/to-do.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Gemini LLM Clone</h4>
-                  <p>Copy the basic functionality of gemini using React and Gemini api</p>
+                  <h4>Go+React+MongoDB: TO-DO APP</h4>
+                  <p>React frontend with Go handling API in the backend with MongoDB as storage. This app is hosted on Google Cloud using Cloud run and Artifact Registry.</p>
                   <div>
-                    <a href="assets/img/portfolio/gemini.jpg" title="Gemini" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="https://github.com/binhvu3/react-projects/tree/main/gemini-clone" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ml" style="position: absolute; left: 880px; top: 0px;">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/ufc.png" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Ufc Fights Analysis</h4>
-                  <p>Comprehensive UFC fights analysis using machine learning models and stats technics. Contain a written report, code, and data</p>
-                  <div>
-                    <a href="assets/img/portfolio/ufc.png" title="UFC Fights Analysis" data-gallery="portfolio-gallery-full" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="https://github.com/binhvu3/ufc-fights-analysis" title="Image description" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    <a href="assets/img/portfolio/to-do.jpg" title="Placeholder" data-gallery="portfolio-gallery-back" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="https://github.com/binhvu3/to-do" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
               </div>
@@ -188,16 +188,16 @@
             </div>
               
             <!-- End Portfolio Item -->
-            
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-dev filter-db" style="position: absolute; left: 0px; top: 672px;">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ml" style="position: absolute; left: 0px; top: 672px;">
               <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/to-do.jpg" class="img-fluid" alt="">
+                <img src="assets/img/portfolio/ufc.png" class="img-fluid" alt="">
                 <div class="portfolio-info">
-                  <h4>Go+React+MongoDB: TO-DO APP</h4>
-                  <p>React frontend with Go handling API in the backend with MongoDB as storage. This app is hosted on Google Cloud using Cloud run and Artifact Registry.</p>
+                  <h4>Ufc Fights Analysis</h4>
+                  <p>Comprehensive UFC fights analysis using machine learning models and stats technics. Contain a written report, code, and data</p>
                   <div>
-                    <a href="assets/img/portfolio/to-do.jpg" title="Placeholder" data-gallery="portfolio-gallery-back" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                    <a href="https://github.com/binhvu3/to-do" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                    <a href="assets/img/portfolio/ufc.png" title="UFC Fights Analysis" data-gallery="portfolio-gallery-full" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="https://github.com/binhvu3/ufc-fights-analysis" title="Image description" class="details-link"><i class="bi bi-link-45deg"></i></a>
                   </div>
                 </div>
               </div>
@@ -331,15 +331,14 @@
             }
           </script>
           <div class="swiper-wrapper align-items-center">
+
             <!-- Cloud Infrastructure-->
             <div class="swiper-slide"><img src="assets/img/skills/amazonwebservices-original-wordmark.svg" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/skills/googlecloud-original.svg" class="img-fluid" alt=""></div>
-
             <!-- Programming Languages -->
             <div class="swiper-slide"><img src="assets/img/skills/python-original.svg" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/skills/go-original.svg" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/skills/r-original.svg" class="img-fluid" alt=""></div>
-
             <!-- Devops-->
             <div class="swiper-slide"><img src="assets/img/skills/docker-original.svg" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/skills/ansible-original.svg" class="img-fluid" alt=""></div>
@@ -349,24 +348,19 @@
             <div class="swiper-slide"><img src="assets/img/skills/terraform-original.svg" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/skills/virtualbox.svg" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/skills/nginx-original.svg" class="img-fluid" alt=""></div>
-
             <!-- Database -->
             <div class="swiper-slide"><img src="assets/img/skills/mysql-original.svg" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/skills/mongodb-original-wordmark.svg" class="img-fluid" alt=""></div>
-
             <!-- Python Library -->
             <div class="swiper-slide"><img src="assets/img/skills/scikitlearn-original.svg" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/skills/numpy-original-wordmark.svg" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/skills/pandas-original-wordmark.svg" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/skills/tensorflow-original.svg" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/skills/anaconda-original-wordmark.svg" class="img-fluid" alt=""></div>
-
-
             <!-- Frontend -->
             <div class="swiper-slide"><img src="assets/img/skills/html5-original.svg" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/skills/react-original.svg" class="img-fluid" alt=""></div>
             <div class="swiper-slide"><img src="assets/img/skills/vitejs-original.svg" class="img-fluid" alt=""></div>
-
           </div>
           <div class="swiper-pagination"></div>
         </div>
